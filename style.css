@@ -512,7 +512,17 @@ footer{
 }
 
 
-
+marquee{
+    background-color: var(--color-orange);
+    margin-bottom: -5px;
+    padding: 10px 0;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    color: rgb(93, 88, 240);
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
 
 
 
@@ -686,6 +696,9 @@ footer{
     }
     footer{
         padding: 40px 0;
+    }
+    marquee{
+        font-size: 1rem;
     }
 
 }
@@ -861,6 +874,9 @@ footer{
     }
     footer{
         padding: 40px 0;
+    }
+    marquee{
+        font-size: 1rem;
     }
 }
 
