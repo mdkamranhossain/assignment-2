@@ -146,6 +146,7 @@ img{
     font-size: 1.25rem;
     font-weight: 400;
     margin-bottom: 24px;
+    line-height: 30px;
 }
 .banner-img{
     text-align: right;
@@ -186,6 +187,7 @@ img{
 .curri-card{
     text-align: center;
     padding: 40px;
+    flex: 1;
 }
 .curri-card h4{
     color: var(--color-black);
@@ -199,10 +201,10 @@ img{
     font-family: var(--font-second);
     font-size: 1rem;
     font-weight: 500;
-}
-.curri-card p{
     text-decoration: none;
+    line-height: 25px;
 }
+
 .curri-card img, h4, p, a{
     padding-bottom: 32px;
 }
@@ -357,6 +359,7 @@ img{
     font-size: 1rem;
     padding: 0 40px;
     padding-bottom: 30px;
+    line-height: 25px;
 }
 
 .story-card-imgend{
@@ -578,7 +581,8 @@ footer{
     }
 
     .banner-text p {
-        font-size: .8rem;
+        font-size: .9rem;
+        font-weight: 500;
     }
 
 
@@ -754,6 +758,7 @@ footer{
     }
     .banner-text p {
         font-size: 1.1rem;
+        line-height: 25px;
     }
     
 
