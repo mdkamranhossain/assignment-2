@@ -624,7 +624,7 @@ footer{
         " story-card-4 story-card-5"
         ;
         gap: 10px;
-        padding: 20px 10px ;
+        padding: 20px 20px ;
     }
     .date2, .date3, .date4, .date5{
         position: static;
@@ -797,7 +797,7 @@ footer{
             " story-card-4 story-card-5"
             ;
             gap: 20px;
-            padding: 20px 10px ;
+            padding: 20px 20px ;
         }
         .date2, .date3, .date4, .date5{
             position: static;
