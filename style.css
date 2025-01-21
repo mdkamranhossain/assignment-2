@@ -673,6 +673,9 @@ img{
 
     /* curriculum-section */
 
+    .curriculum-section {
+        padding: 40px 0;
+    }
     .curri-cards{
         flex-direction: column;
         padding: 20px;
@@ -691,6 +694,71 @@ img{
     .curriculum h2{
         font-size: 1.6rem;
     }
+    .next-btn {
+        display: none;
+    }
+
+        /* our stories section  */
+
+        .story-section{
+            padding: 40px 0;
+        }
+        .s-c-1{
+            display: none;
+        }
+        .story-cards{
+            width: 100%;
+            grid-template-areas: 
+            " story-card-2 story-card-3"
+            " story-card-4 story-card-5"
+            ;
+            gap: 20px;
+            padding: 20px 10px ;
+        }
+        .date2, .date3, .date4, .date5{
+            position: static;
+            top: 0px;
+            width: 0px;
+            padding: 0px 0px;
+            margin-left: 0px;
+    
+            position: relative;
+            top: 170px;
+            font-size: .7rem;
+            font-weight: 500px;
+            background: rgb(149, 178, 38);
+            width: 120px;
+            text-align: center;
+            padding: 6px 6px;
+            border-radius: 28px;
+            margin-left: 10px;
+            }
+            .date3, .date4, .date5{
+                background-color: #5D58F0;            }
+        .story-card{
+            gap: 10px;
+            border-radius: 10px;
+        }
+        .story-card-imgend5, .story-card-imgend4, .story-card-imgend3, .story-card-imgend2{
+            height: 180px;
+            width: 100%;
+        }
+        .scard{
+            font-size: 1rem;
+            line-height: 20px;
+            padding: 10px;
+            padding-bottom: 20px;
+        }
+        .story-card-img{
+            border-radius: 10px 10px 0px 0px;
+        }
+        .story-btn{
+            padding-top: 20px;
+            padding-bottom: 0px;
+        }
+        .story-section h2 {
+            font-size: 1.6rem;
+        }
 
 }
 
