@@ -309,7 +309,7 @@ img{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .date{
@@ -367,7 +367,39 @@ img{
     background-size: cover;
     border-radius: 16px 16px 0px 0px;
 }
+.story-card-imgend2{
+    background: url(assets/story-2.png);
+    height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+}
 
+.story-card-imgend3{
+    background: url(assets/story-3.png);
+    height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+.story-card-imgend4{
+    background: url(assets/story-4.png);
+    height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+.story-card-imgend5{
+    background: url(assets/story-5.png);
+    height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+}
 .date2, .date3, .date4, .date5{
     position: relative;
     top: 200px;
@@ -403,6 +435,8 @@ img{
     padding-top: 80px;
     padding-bottom: 60px;
 }
+
+
 
 
 
@@ -475,7 +509,9 @@ img{
 
 
     /* curriculum-section */
-
+    .curriculum-section {
+        padding: 40px 0;
+    }
     .curri-cards{
         flex-direction: column;
         padding: 15px;
@@ -497,10 +533,77 @@ img{
     .curriculum h2{
         font-size: 1.6rem;
     }
+    .next-btn {
+        display: none;
+    }
 
+    /* our stories section  */
 
+    .story-section{
+        padding: 40px 0;
+    }
+    .s-c-1{
+        display: none;
+    }
+    .story-cards{
+        width: 100%;
+        grid-template-areas: 
+        " story-card-2 story-card-3"
+        " story-card-4 story-card-5"
+        ;
+        gap: 10px;
+        padding: 20px 10px ;
+    }
+    .date2, .date3, .date4, .date5{
+        position: static;
+        top: 0px;
+        width: 0px;
+        padding: 0px 0px;
+        margin-left: 0px;
 
+        position: relative;
+        top: 110px;
+        font-size: 9px;
+        font-weight: 500px;
+        background: rgb(149, 178, 38);
+        width: 100px;
+        text-align: center;
+        padding: 6px 6px;
+        border-radius: 28px;
+        margin-left: 10px;
+        }
+        .date3, .date4, .date5{
+            background-color: #5D58F0;
+        }
+    .story-card{
+        gap: 10px;
+        border-radius: 10px;
+    }
+    .story-card-imgend5, .story-card-imgend4, .story-card-imgend3, .story-card-imgend2{
+        height: 120px;
+        width: 100%;
+    }
+    .scard{
+        font-size: 9px;
+        line-height: 14px;
+        padding: 10px;
+    }
+    .story-card-img{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .story-btn{
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .story-section h2 {
+        font-size: 1.6rem;
+    }
 }
+
+
+
+
+
 
 
 
