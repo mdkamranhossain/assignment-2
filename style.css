@@ -481,8 +481,8 @@ footer{
     color: rgb(255, 255, 255);
     font-family: var(--font-primary);
     font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 25px;
+    font-weight: 500;
+    line-height: 40px;
 }
 .footer-menu h2, .footer-social h2{
     font-family: var(--font-primary);
@@ -499,6 +499,7 @@ footer{
     color: var(--color-white);
     font-family: var(--font-primary);
     font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .footer-social ul li{
@@ -506,6 +507,7 @@ footer{
     margin-right: 10px;
     cursor: pointer;
 }
+
 
 
 
